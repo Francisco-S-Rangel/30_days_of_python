@@ -182,3 +182,14 @@ def add_two_numbers(x, y):
 
 total = reduce(add_two_numbers, numbers_str)
 print(total)
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+# typescript version numbers.filter(x => x % 2 === 0).map(x => x * 2)
+
+even_dubled = map(lambda x: x * 2, filter(lambda x: x % 2 == 0, numbers))
+print(list(even_dubled))
+
+# Although the solution bellow is more common in Python
+even_dubled = [number * 2 for number in numbers if number % 2 == 0]
+print(even_dubled)
