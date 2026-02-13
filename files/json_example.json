@@ -1,0 +1,11 @@
+{
+    "name": "Francisco",
+    "surname": "Rangel",
+    "city": "Mogi das Cruzes",
+    "skills": [
+        "JavaScript",
+        "Angular",
+        "Java",
+        "Python"
+    ]
+}

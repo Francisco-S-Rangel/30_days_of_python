@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<person gender="male">
+  <name>Francisco</name>
+  <country>Brazil</country>
+  <city>Mogi das Cruzes</city>
+  <skills>
+    <skill>JavaScrip</skill>
+    <skill>Angular</skill>
+    <skill>Python</skill>
+  </skills>
+</person>
