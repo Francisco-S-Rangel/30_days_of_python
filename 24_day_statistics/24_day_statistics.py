@@ -194,5 +194,20 @@ print('First row:', first_row)
 print('Second row:', second_row)
 print('Third row: ', third_row)
 
+# Slicing Numpy array
+
+two_dimension_array = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(two_dimension_array)
+print("------")
+first_two_rows_and_columns = two_dimension_array[0:2, 0:2]
+print(first_two_rows_and_columns)
+print("------")
+three_rows_and_two_columns = two_dimension_array[0:3,0:2]
+print(three_rows_and_two_columns)
+print("------")
+two_rows_and_three_columns = two_dimension_array[0:2,0:3]
+print(two_rows_and_three_columns)
+print("------")
+
 # You can use Python for many other things. There are many modules for performing statistics in Python. 
 # This file is just an introduction to numpy and statistics, but there are many other things that will not be covered in depth for now. 
