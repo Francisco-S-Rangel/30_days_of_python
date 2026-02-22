@@ -1,0 +1,16 @@
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+    <h1>Text Analyzer</h1>
+    <br>
+    <h2>The button below will not work for lack of action to submit</h2>
+    <form action="" method="post">
+        <div>
+            <textearea rows="25" namme="content" autofocus></textearea>
+        </div>
+        <div>
+            <input type="submit" class="btn" value="Process Test" />
+        </div>
+    </form>
+</div>
+
+{% endblock %}
