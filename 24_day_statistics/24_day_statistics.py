@@ -216,5 +216,22 @@ print(random_float)
 random_floats = np.random.random(5)
 print(random_floats)
 
+random_int = np.random.randint(0, 11)
+print(random_int)
+
+random_int = np.random.randint(2, 10, size = 4)
+print(random_int)
+
+random_int = np.random.randint(2, 10, size=(3,3))
+print(random_int)
+
+list_arange = range(0, 11, 2)
+
+for value in list_arange:
+    print(value)
+
+list_arange = np.arange(0, 11, 2)
+print(list_arange)
+
 # You can use Python for many other things. There are many modules for performing statistics in Python. 
 # This file is just an introduction to numpy and statistics, but there are many other things that will not be covered in depth for now. 
