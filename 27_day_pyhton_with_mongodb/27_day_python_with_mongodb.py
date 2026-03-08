@@ -26,7 +26,7 @@ from flask import Flask, render_template
 from bson.objectid import ObjectId
 import pymongo
 import os
-# CHANGE TO YOUR MONGODB URL THIS ONE WILL NOT WORK FOR YOU - DATABASE USER DELETED
+# CHANGE TO YOUR MONGODB URL THIS ONE WILL NOT WORK FOR YOU - DATABASE USER WILL BE DELETED
 MONGODB_URL = "mongodb+srv://franciscosouza20092000_db_user:61yohEy6znGOtNhP@30daysofpython.4iwlgag.mongodb.net/?appName=30DaysOfPython"
 
 client = pymongo.MongoClient(MONGODB_URL)

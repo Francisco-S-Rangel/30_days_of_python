@@ -209,5 +209,12 @@ two_rows_and_three_columns = two_dimension_array[0:2,0:3]
 print(two_rows_and_three_columns)
 print("------")
 
+# Generating Random Numbers 
+random_float = np.random.random()
+print(random_float)
+
+random_floats = np.random.random(5)
+print(random_floats)
+
 # You can use Python for many other things. There are many modules for performing statistics in Python. 
 # This file is just an introduction to numpy and statistics, but there are many other things that will not be covered in depth for now. 
