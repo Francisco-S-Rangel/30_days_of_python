@@ -27,3 +27,29 @@ def sortColors(nums: List[int]) -> None:
             else:
                 nums[mid], nums[high] = nums[high], nums[mid]
                 high -= 1
+
+# with Quick Sort algorithm
+def sort_colors(nums: list[int]) -> None:
+     nums = quick_sort(nums)
+     print(nums)
+
+def quick_sort(numbers: list[int]) -> list[int]:
+    if len(numbers) < 2:
+        return numbers
+
+    pivot: int = numbers[0]
+    lower: list[int] = []
+    higher: list[int] = []
+
+    for i in range(1, len(numbers)):
+        value: int = numbers[i]
+
+        if value <= pivot:
+            lower.append(value)
+        else:
+            higher.append(value)
+
+    return quick_sort(lower) + [pivot] + quick_sort(higher)
+
+sort_colors([14,56,78,26,33,7,85])
+     
