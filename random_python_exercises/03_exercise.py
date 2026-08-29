@@ -25,3 +25,18 @@ def sum_numbers_target_dict(numbers, target):
         seen[number] = index
 
 print(sum_numbers_target_dict(numbers, target))
+
+print("---------------------")
+
+# using python 3
+def two_sum(nums: list[int], target: int) -> list[int]:
+    seen: dict[int, int] = dict()
+
+    for index, value in enumerate(nums):
+        missing: int = target - value
+        if missing in seen:
+            return [seen.get(missing), index]
+        else:  
+            seen[value] = index
+
+print(two_sum(numbers, target))
