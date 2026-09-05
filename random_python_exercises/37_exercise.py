@@ -13,3 +13,5 @@ def is_valid(s: str) -> bool:
                 return False
         else:
             order_stack.append(char)
+
+    return len(order_stack) == 0
